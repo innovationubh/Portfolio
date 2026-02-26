@@ -5,7 +5,7 @@ function toggleDarkMode() {
 function adminLogin() {
   let pass = prompt("Enter admin password:");
   if (pass === "innovationstartshere") {
-    alert("Admin mode enabled (edit files on GitHub)");
+    alert("Admin mode enabled!");
   } else {
     alert("Wrong password");
   }
