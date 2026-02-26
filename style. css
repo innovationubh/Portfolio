@@ -5,6 +5,7 @@ body {
   background: linear-gradient(270deg, #eef2f3, #ffffff, #f9f9d2, #ffd6e0);
   background-size: 800% 800%;
   animation: gradientShift 20s ease infinite;
+  text-align: center; /* centers all text */
 }
 
 @keyframes gradientShift {
@@ -24,7 +25,6 @@ header {
 
 .hero, .content {
   padding: 40px;
-  text-align: center;
 }
 
 .btn {
