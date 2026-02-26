@@ -1,27 +1,26 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Contact Me</title>
+  <meta charset="UTF-8">
+  <title>Contact</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <header>
-  <h1>📩 Contact</h1>
-  <button onclick="toggleDarkMode()">🌙</button>
+  <h1>📩 Contact Me</h1>
+  <a href="index.html">⬅ Home</a>
 </header>
 
-<section class="card">
-  <p>"Dream big. Build bigger."</p>
-  <p>Email: yourmail@gmail.com</p>
-  <p>Instagram: yourid</p>
-  <p>Snapchat: yourid</p>
+<section class="content">
+  <p>“Dream big. Start small. Act now.”</p>
+  <p>Email: example@gmail.com</p>
+  <p>Instagram: @yourid</p>
 </section>
 
-<a href="index.html" class="back">⬅ Back</a>
+<footer>
+  <p>🤝 Let’s build the future together</p>
+</footer>
 
-<footer>🌟 Let's build the future 🌟</footer>
-
-<script src="script.js"></script>
 </body>
 </html>
