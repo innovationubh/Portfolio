@@ -1,26 +1,27 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>About Me</title>
+  <meta charset="UTF-8">
+  <title>How I Started</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <header>
   <h1>🚀 How I Started</h1>
-  <button onclick="toggleDarkMode()">🌙</button>
+  <a href="index.html">⬅ Home</a>
 </header>
 
-<section class="card">
+<section class="content">
   <p>
-    (You will send your About Me later — paste it here)
+    I started my journey with curiosity about machines, science and innovation.
+    This page tells my story and motivation to build technology for the future.
   </p>
 </section>
 
-<a href="index.html" class="back">⬅ Back</a>
+<footer>
+  <p>🌱 Every big innovation starts small</p>
+</footer>
 
-<footer>🌟 Keep Innovating 🌟</footer>
-
-<script src="script.js"></script>
 </body>
 </html>
