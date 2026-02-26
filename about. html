@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>About Me</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>🚀 How I Started</h1>
+  <button onclick="toggleDarkMode()">🌙</button>
+</header>
+
+<section class="card">
+  <p>
+    (You will send your About Me later — paste it here)
+  </p>
+</section>
+
+<a href="index.html" class="back">⬅ Back</a>
+
+<footer>🌟 Keep Innovating 🌟</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

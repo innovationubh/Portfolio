@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>My Projects</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>🛠 My Projects</h1>
+  <button onclick="toggleDarkMode()">🌙</button>
+  <button onclick="adminLogin()" class="admin-btn">Admin</button>
+</header>
+
+<div id="uploadSection" style="display:none;">
+  <input type="file" id="fileInput">
+  <button onclick="addProject()">Add Project</button>
+</div>
+
+<div id="projects"></div>
+
+<a href="index.html" class="back">⬅ Back</a>
+
+<footer>✨ Projects are proof of learning ✨</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

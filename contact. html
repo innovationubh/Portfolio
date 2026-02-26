@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact Me</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <h1>📩 Contact</h1>
+  <button onclick="toggleDarkMode()">🌙</button>
+</header>
+
+<section class="card">
+  <p>"Dream big. Build bigger."</p>
+  <p>Email: yourmail@gmail.com</p>
+  <p>Instagram: yourid</p>
+  <p>Snapchat: yourid</p>
+</section>
+
+<a href="index.html" class="back">⬅ Back</a>
+
+<footer>🌟 Let's build the future 🌟</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
