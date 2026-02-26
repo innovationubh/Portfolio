@@ -19,12 +19,18 @@ header {
   color: white;
   padding: 15px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;  /* center title */
   align-items: center;
+  gap: 15px;
 }
 
 .hero, .content {
   padding: 40px;
+  max-width: 600px;
+  margin: 40px auto;   /* 👈 THIS centers the blocks */
+  background: rgba(255,255,255,0.85);
+  border-radius: 15px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
 }
 
 .btn {
@@ -43,6 +49,7 @@ footer {
   padding: 15px;
   background: #111;
   color: white;
+  position: relative;
 }
 
 .admin-btn {
