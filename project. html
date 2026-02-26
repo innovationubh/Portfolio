@@ -1,27 +1,38 @@
-<!DOCTYPE html>
+<<!DOCTYPE html>
 <html>
 <head>
-  <title>My Projects</title>
+  <meta charset="UTF-8">
+  <title>Projects</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <header>
-  <h1>🛠 My Projects</h1>
-  <button onclick="toggleDarkMode()">🌙</button>
-  <button onclick="adminLogin()" class="admin-btn">Admin</button>
+  <h1>🧠 My Projects</h1>
+  <a href="index.html">⬅ Home</a>
 </header>
 
-<div id="uploadSection" style="display:none;">
-  <input type="file" id="fileInput">
-  <button onclick="addProject()">Add Project</button>
-</div>
+<section class="projects">
 
-<div id="projects"></div>
+  <div class="project-card">
+    <img src="project1.jpg" onclick="openFile('project1.pdf')">
+    <h3>Heart Rate Monitor</h3>
+    <button onclick="openFile('project1.pdf')">📂 Open File</button>
+    <a href="https://youtube.com" target="_blank">▶ Watch Video</a>
+  </div>
 
-<a href="index.html" class="back">⬅ Back</a>
+  <div class="project-card">
+    <img src="project2.jpg" onclick="openFile('project2.pdf')">
+    <h3>Posture Correction Device</h3>
+    <button onclick="openFile('project2.pdf')">📂 Open File</button>
+    <a href="https://youtube.com" target="_blank">▶ Watch Video</a>
+  </div>
 
-<footer>✨ Projects are proof of learning ✨</footer>
+</section>
+
+<footer>
+  <p>⚙ Innovation through practice</p>
+</footer>
 
 <script src="script.js"></script>
 </body>
